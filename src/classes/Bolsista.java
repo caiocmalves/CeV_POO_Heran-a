@@ -1,14 +1,14 @@
 package classes;
 
 public class Bolsista extends Aluno{
-    private int bolsa;
+    private double bolsa;
 
     public void renovarBolsa() {
-
+        System.out.println("Renovando bolsa de " + this.getNome());
     }
 
 
-    public int getBolsa(){ 
+    public double getBolsa(){ 
         return bolsa;
     }
 
@@ -18,7 +18,7 @@ public class Bolsista extends Aluno{
 
     @Override
     public void pagarMensalidade() {
-
+        System.out.println(this.getNome() + "é bolsista, pagamento facilitado.");
     }    
 
 }
