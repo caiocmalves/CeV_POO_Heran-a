@@ -13,6 +13,10 @@ public class Aluno extends Pessoa{
 
     }
 
+    public void pagarMensalidade() {
+
+    }
+
 
     public int getMatr() {
         return matr;
