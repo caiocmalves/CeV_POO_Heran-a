@@ -6,7 +6,7 @@ public abstract class Pessoa {
     private char sexo;
 
 
-    public void  fazerAniv() {
+    public final void  fazerAniv() {
         this.setIdade(this.getIdade() + 1);
     }
 
