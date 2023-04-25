@@ -7,6 +7,10 @@ public class Bolsista extends Aluno{
         System.out.println("Renovando bolsa de " + this.getNome());
     }
 
+    @Override
+    public void pagarMensalidade() {
+        System.out.println(this.getNome() + "é bolsista, pagamento facilitado.");
+    } 
 
     public double getBolsa(){ 
         return bolsa;
@@ -16,9 +20,6 @@ public class Bolsista extends Aluno{
         this.bolsa = bolsa;
     }
 
-    @Override
-    public void pagarMensalidade() {
-        System.out.println(this.getNome() + "é bolsista, pagamento facilitado.");
-    }    
+     
 
 }
